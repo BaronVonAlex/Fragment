@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/LightGrey"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Alexander's Bakery"
+        android:textSize="30dp"
+        android:textColor="@color/red"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Food Type:"
+        android:textColor="@color/green"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"/>
+    <EditText
+        android:id="@+id/FoodType"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="Pizza, Burger, Shawarma">
+    </EditText>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Topping:"
+        android:textColor="@color/green"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <EditText
+        android:id="@+id/Topping"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="Classic, Pepperoni, Mushrooms, Pineapple">
+    </EditText>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Soda:"
+        android:textColor="@color/green"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/Juice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="Coca-Cola, Pepsi, Fanta, Spire">
+    </EditText>
+
+    <Button
+        android:id="@+id/enterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Order Food"
+        android:backgroundTint="@color/teal_700">
+    </Button>
+
+
+
+
+</LinearLayout>
